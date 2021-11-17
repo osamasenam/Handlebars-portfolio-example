@@ -1,0 +1,22 @@
+[
+    {
+        "name": "connect four",
+        "directory": "connect4",
+        "description": "connect four project discription"
+    },
+    {
+        "name": "monkey carousel",
+        "directory": "kitty-carousel",
+        "description": "monkey carousel project discription"
+    },
+    {
+        "name": "spotify",
+        "directory": "spotify",
+        "description": "spotify project discription"
+    },
+    {
+        "name": "news ticker",
+        "directory": "ticker",
+        "description": "news ticker project discription"
+    }
+]

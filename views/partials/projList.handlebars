@@ -1,0 +1,13 @@
+<section id="projects">
+{{#projects}}
+    <div class="project">
+        <a href="/{{directory}}">
+            <h2>{{name}}</h2>
+            {{#if ../flag}}
+                <img src="/{{directory}}/Screenshot.png"/>
+            {{/if}}
+        </a>
+    </div>
+{{/projects}}
+
+</section>

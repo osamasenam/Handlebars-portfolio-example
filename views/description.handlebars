@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="/style.css">
+
+<div class="description">
+    <section class="side">
+        {{!-- {{>projList
+            flag=false
+        }} --}}
+    {{#projects}}
+        <ul>
+            <li>
+                <a href="{{directory}}">
+                    <h2>{{name}}</h2>
+                </a>
+            </li>
+        </ul>           
+    {{/projects}}
+    </section>
+
+    {{!-- {{>section
+      nameSec = {{projectObj.name}}; 
+      directorySec = {{projectObj.directory}};
+      descriptionSec={{projectObj.description}}
+    }} --}}
+
+    <section class="side">
+        <h2>{{projectObj.name}}</h2>
+        <img src="/{{projectObj.directory}}/Screenshot.png"/>
+        <p>{{projectObj.description}}</p>
+        <a href="/{{projectObj.directory}}">Launch</a>
+    </section>
+</div>
